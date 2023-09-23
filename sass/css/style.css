@@ -715,6 +715,7 @@ img {
   .header.ativo .link-social-mobile {
     display: flex;
     gap: 40px;
+    margin-bottom: 50px;
   }
   .header.ativo .link-social-mobile a {
     color: #fff;
@@ -744,4 +745,8 @@ img {
     opacity: 1;
     width: 100%;
   }
+}
+
+.header.ativo body {
+  overflow: hidden;
 }

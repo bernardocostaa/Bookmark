@@ -399,6 +399,7 @@ img {
   }
 }
 
+
 .bg-email {
   background-color: #5267df;
   padding: 60px 0;
@@ -680,6 +681,7 @@ img {
   .header.ativo .link-social-mobile{
     display:flex;
     gap: 40px;
+    margin-bottom: 50px;
     a{
       color: #fff;
       transition: .3s all;
@@ -713,4 +715,9 @@ img {
     // transform: translate3d(0,0,0);
     width: 100%;
   }
+}
+
+
+.header.ativo body{
+  overflow: hidden;
 }
