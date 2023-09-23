@@ -7,11 +7,11 @@ function toggleModal(){
     const imgBtn = this.querySelector('button img')
     header.classList.toggle('ativo')
    if(header.classList.contains('ativo')){
-    logoMenu.setAttribute('src', '../img/logoMobile.svg');
-    imgBtn.setAttribute('src','../img/icon-close.svg')
+    logoMenu.setAttribute('src', '/img/logoMobile.svg');
+    imgBtn.setAttribute('src','/img/icon-close.svg')
    }else{
-    logoMenu.setAttribute('src', '../img/logo-bookmark.svg');
-    imgBtn.setAttribute('src','../img/icon-hamburger.svg')
+    logoMenu.setAttribute('src', '/img/logo-bookmark.svg');
+    imgBtn.setAttribute('src','/img/icon-hamburger.svg')
    }
 }
 
