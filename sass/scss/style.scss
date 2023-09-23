@@ -507,6 +507,11 @@ img {
 .link-social-mobile{
   display: none;
 }
+.header.ativo{
+  opacity: 0.9;
+    position: relative;
+    z-index: 1;
+}
 
 @media (max-width: 1060px) {
   .main-flex {
@@ -648,12 +653,10 @@ img {
     flex-direction: column;
     gap: 40px;
     padding: 40px 20px;
-    opacity: 0.95;
     background: #242A45;
     min-height: 100vh;
     right: 0;
-    position: absolute;
-    z-index: 10;
+    position: fixed;
     animation: animaMenu .3s forwards;
   }
   .header.ativo .menu{
