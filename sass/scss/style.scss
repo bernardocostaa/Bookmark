@@ -562,6 +562,7 @@ img {
   }
   .tab-faetures {
     flex-direction: column;
+    gap: 0;
   }
   .cards {
     flex-direction: column;
@@ -607,6 +608,29 @@ img {
   }
   .contact{
     padding: 0 32px;
+  }
+
+  .tab-faeture-info{
+    padding: 0 32px;
+    text-align: center;
+  }
+  .input-email{
+    flex-direction: column;
+    button{
+        height: 48px;
+    }
+  }
+  .img-position{
+    padding: 0 32px;
+    height: 400px;
+  }
+  .img-position::before{
+    right: 20%;
+    top: 15%;
+    height: 60%;
+  }
+  .mb-220{
+    margin-bottom: 120px;
   }
 }
 
