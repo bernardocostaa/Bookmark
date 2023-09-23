@@ -503,6 +503,9 @@ img {
     }
   }
 }
+.link-social-mobile{
+  display: none;
+}
 
 @media (max-width: 1060px) {
   .main-flex {
@@ -519,6 +522,12 @@ img {
 }
 
 @media (max-width: 999px) {
+  .mobile-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
   .menu-mobile {
     display: block;
   }
@@ -632,11 +641,76 @@ img {
   .mb-220{
     margin-bottom: 120px;
   }
+
+  .header.ativo .menu-nav{
+    margin-top: 0;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 20px;
+    opacity: 0.95;
+    background: #242A45;
+    min-height: 100vh;
+    right: 0;
+    position: absolute;
+    z-index: 10;
+    animation: animaMenu .3s forwards;
+  }
+  .header.ativo .menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    a{
+      color: #fff;
+      font-size: 1.25rem;
+      width: 80%;
+      &:hover{
+        color: $SoftRed;
+      }
+    }
+    a.login{
+      background: transparent;
+      height: 48px;
+      border: 2px solid #fff;
+      &:hover{
+      border: 2px solid $SoftRed;
+      }
+    }
+  }
+  .header.ativo .link-social-mobile{
+    display:flex;
+    gap: 40px;
+    a{
+      color: #fff;
+      transition: .3s all;
+      &:hover{
+        color: $SoftRed;
+      }
+    }
+  }
 }
 
 @media (max-width: 767px) {
   .bg-before::after {
     top: 15%;
     height: 60%;
+  }
+  .img-position::before{
+    top: 10%;
+  }
+}
+
+
+
+@keyframes animaMenu{
+  0%{
+    opacity: 0;
+    // transform: translate3d(200px,0,0);
+    width: 0;
+  }
+  100%{
+    opacity: 1;
+    // transform: translate3d(0,0,0);
+    width: 100%;
   }
 }
