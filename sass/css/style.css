@@ -243,6 +243,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 125px;
+  animation: animeRight .3s forwards;
 }
 
 .tab-faeture-info {
@@ -791,6 +792,10 @@ img {
   transform: rotate(180deg);
 }
 
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
 @keyframes animaMenu {
   0% {
     opacity: 0;
@@ -810,5 +815,14 @@ img {
   100% {
     opacity: 1;
     transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

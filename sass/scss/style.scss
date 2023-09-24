@@ -232,6 +232,7 @@ img {
   align-items: center;
   justify-content: center;
   gap: 125px;
+  animation:animeRight .3s forwards;
 }
 
 .tab-faeture-info {
@@ -748,7 +749,7 @@ img {
   dd.ativo{
     p{
       display: block;
-      animation:animeRight .3s forwards ;
+      animation:animeRight .3s forwards;
     }
   }
   dt.ativo{
@@ -757,6 +758,11 @@ img {
       transform: rotate(180deg);
     }
   }
+}
+
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
 }
 
 
@@ -780,5 +786,15 @@ img {
   100%{
     opacity: 1;
     transform: translate3d(0,0,0);
+  }
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
