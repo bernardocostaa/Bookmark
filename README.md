@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://bernardocostaa.github.io/Fylo-Dark/">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://bernardocostaa.github.io/Bookmark/">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -25,7 +25,7 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 ## 🚧 Projeto:
 
-Link do Projeto: [Fylo Dark](https://bernardocostaa.github.io/Fylo-Dark/)
+Link do Projeto: [Bookmark](https://bernardocostaa.github.io/Bookmark/)
 
 
 ## :memo: Licença
