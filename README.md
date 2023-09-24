@@ -4,7 +4,7 @@
 </h1>
 
 <p align="center">
-  <img alt="" src="https://github.com/bernardocostaa/Fylo-Dark/blob/main/templete.jpg" width="100%">
+  <img alt="" src="https://github.com/bernardocostaa/Bookmark/blob/main/templete.jpg" width="100%">
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@ Link do Projeto: [Bookmark](https://bernardocostaa.github.io/Bookmark/)
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/bernardocostaa/Fylo/blob/main/LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/bernardocostaa/Bookmark/blob/main/LICENSE) para mais detalhes.
 
 ---
 
