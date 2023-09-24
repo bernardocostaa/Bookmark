@@ -572,6 +572,9 @@ img {
     justify-content: space-between;
     width: 100%;
   }
+  .input-email button {
+    margin-top: 1rem;
+  }
   .menu-mobile {
     display: block;
   }
@@ -648,12 +651,6 @@ img {
   }
   .faq-cont, .title-center {
     padding: 0 32px;
-  }
-  .btns-main {
-    flex-wrap: wrap;
-  }
-  .btns-main a {
-    width: 100%;
   }
   .main-flex {
     padding-bottom: 120px;
@@ -740,6 +737,33 @@ img {
   }
 }
 
+.area-input {
+  position: relative;
+  width: 100%;
+}
+
+.input-email.error input {
+  border: 2px solid #fa5757;
+}
+
+.input-email.error span {
+  font-size: 10px;
+  font-style: italic;
+  background: #fa5757;
+  padding: 4px 6px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -20px;
+  border-radius: 5px;
+}
+
+.input-email.error img {
+  position: absolute;
+  right: 10px;
+  top: 30%;
+}
+
 @keyframes animaMenu {
   0% {
     opacity: 0;
@@ -749,8 +773,4 @@ img {
     opacity: 1;
     width: 100%;
   }
-}
-
-.header.ativo body {
-  overflow: hidden;
 }
