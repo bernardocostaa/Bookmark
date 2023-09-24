@@ -62,3 +62,15 @@ function removeErro(){
 btnEmail.addEventListener('click',checkEmail)
 
 
+
+
+const listaFaq = document.querySelectorAll('.faq dt')
+
+function toggleList(){
+    this.classList.toggle('ativo')
+    this.nextElementSibling.classList.toggle('ativo')
+}
+
+listaFaq.forEach((item)=>{
+    item.addEventListener('click',toggleList)
+})

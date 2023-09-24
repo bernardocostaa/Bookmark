@@ -359,6 +359,19 @@ img {
 .faq-cont {
   max-width: 540px;
   margin: 55px auto;
+  dd{
+    font-size: 1rem;
+    border-bottom: 1px solid #d4d4d6;
+    &:first-child {
+      border-top: 1px solid #d4d4d6;
+    }
+    p{
+      opacity: 0.75;
+      padding-bottom: 28px;
+      line-height: 2;
+      display: none;
+    }
+  }
   dt {
     display: flex;
     cursor: pointer;
@@ -368,13 +381,14 @@ img {
     font-size: 1.125rem;
     line-height: 1.7;
     padding: 14px 0;
-    border-bottom: 1px solid #d4d4d6;
     transition: 0.3s all;
     &:hover {
       color: $SoftRed;
     }
-    &:first-child {
-      border-top: 1px solid #d4d4d6;
+    i{
+      font-size: 23px;
+      color: #5267DF;
+      transition: .3s all;
     }
   }
   a {
@@ -730,17 +744,41 @@ img {
   }
 }
 
+.faq-cont{
+  dd.ativo{
+    p{
+      display: block;
+      animation:animeRight .3s forwards ;
+    }
+  }
+  dt.ativo{
+    i{
+      color: $SoftRed;
+      transform: rotate(180deg);
+    }
+  }
+}
+
 
 
 @keyframes animaMenu{
   0%{
     opacity: 0;
-    // transform: translate3d(200px,0,0);
     width: 0;
   }
   100%{
     opacity: 1;
-    // transform: translate3d(0,0,0);
     width: 100%;
+  }
+}
+
+@keyframes animeRight{
+  0%{
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+  }
+  100%{
+    opacity: 1;
+    transform: translate3d(0,0,0);
   }
 }

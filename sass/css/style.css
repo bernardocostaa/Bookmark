@@ -385,6 +385,22 @@ img {
   margin: 55px auto;
 }
 
+.faq-cont dd {
+  font-size: 1rem;
+  border-bottom: 1px solid #d4d4d6;
+}
+
+.faq-cont dd:first-child {
+  border-top: 1px solid #d4d4d6;
+}
+
+.faq-cont dd p {
+  opacity: 0.75;
+  padding-bottom: 28px;
+  line-height: 2;
+  display: none;
+}
+
 .faq-cont dt {
   display: flex;
   cursor: pointer;
@@ -394,7 +410,6 @@ img {
   font-size: 1.125rem;
   line-height: 1.7;
   padding: 14px 0;
-  border-bottom: 1px solid #d4d4d6;
   transition: 0.3s all;
 }
 
@@ -402,8 +417,10 @@ img {
   color: #fa5757;
 }
 
-.faq-cont dt:first-child {
-  border-top: 1px solid #d4d4d6;
+.faq-cont dt i {
+  font-size: 23px;
+  color: #5267DF;
+  transition: .3s all;
 }
 
 .faq-cont a {
@@ -764,6 +781,16 @@ img {
   top: 30%;
 }
 
+.faq-cont dd.ativo p {
+  display: block;
+  animation: animeRight .3s forwards;
+}
+
+.faq-cont dt.ativo i {
+  color: #fa5757;
+  transform: rotate(180deg);
+}
+
 @keyframes animaMenu {
   0% {
     opacity: 0;
@@ -772,5 +799,16 @@ img {
   100% {
     opacity: 1;
     width: 100%;
+  }
+}
+
+@keyframes animeRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100px, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }
