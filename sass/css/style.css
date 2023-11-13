@@ -100,6 +100,7 @@ img {
   line-height: 1.1;
   color: #252b46;
   margin-bottom: 24px;
+  font-weight: 400;
 }
 
 .info-main p {
@@ -194,6 +195,7 @@ img {
   line-height: 1.6;
   color: #252b46;
   margin-bottom: 1rem;
+  font-weight: 400;
 }
 
 .title-center p {
@@ -253,6 +255,7 @@ img {
 .tab-faeture-info h2 {
   font-size: 2rem;
   line-height: 1.6;
+  font-weight: 400;
   color: #252b46;
   margin-bottom: 1rem;
 }
@@ -624,6 +627,7 @@ img {
   }
   .info-main h1 {
     font-size: 1.875rem;
+    font-weight: 400;
   }
   .info-main p {
     font-size: 1rem;
